@@ -46,7 +46,7 @@ function createRandomCircle() {
     type: "circle",
     x: random(width),      
     y: random(height),      
-    size: random(10, 50),   
+    size: random(10, 80),   
     color: [random(255), random(255), random(255)] 
   };
   socket.emit('data', circle);
